@@ -246,6 +246,35 @@ button {
   grid-column: 3;
 }
 
+.categories img {
+  width: 60px; 
+  height: auto;
+}
+
+.categories {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.newsletter {
+  text-align: center;
+  margin: 2rem 0;
+}
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.newsletter input {
+  padding: 0.5rem;
+}
+.newsletter button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+
 @media screen and (min-width: 500px) {
   body {
     max-width: 1080px;
@@ -266,3 +295,4 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+
